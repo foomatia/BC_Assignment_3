@@ -14,7 +14,7 @@ load = os.path.join(r"./Resources/election_data_1.csv")
 candidate_vote = {}
 winner = ""
 winner_votes = 0
-total_votes = -1
+total_votes = 0
 
 # Read file 
 with open(load, 'r') as csvfile:
